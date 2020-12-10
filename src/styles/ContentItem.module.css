@@ -1,0 +1,32 @@
+.contentitem {
+  display: flex;
+  background-color: #eff2f7;
+  border-radius: 5px;
+  margin: 30px 50px;
+  padding: 20px;
+}
+
+.contentitem:last-child {
+  margin-bottom: 20px;
+}
+
+.contentitem__title {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.contentitem__desc {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.contentitem img {
+  display: block;
+  width: 300px;
+  border-radius: 10px;
+  margin-right: 23px;
+}
+
+.contentitem a {
+  margin-bottom: 10px;
+}

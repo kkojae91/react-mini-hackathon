@@ -1,0 +1,25 @@
+.headerdate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.headerdate__container {
+  line-height: 1.2;
+  color: #e49319;
+}
+
+.headerdate__month {
+  font-size: 30px;
+  margin-bottom: 3px;
+}
+
+.headerdate__day {
+  font-size: 25px;
+}
+
+.headerdate__time {
+  font-size: 15px;
+  margin-left: 2px;
+}
