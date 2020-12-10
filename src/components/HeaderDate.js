@@ -9,7 +9,7 @@ function HeaderDate({ date }) {
   let getHours = date.getHours() < 10 ? '0' + date.getHours() : date.getHours();
   if (22 > getHours > 12) {
     getHours = `0${getHours - 12}`;
-  } else {
+  } else if (25 > getHours > 21) {
     getHours = `${getHours - 12}`;
   }
 

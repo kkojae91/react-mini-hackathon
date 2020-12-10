@@ -1,6 +1,7 @@
 .content {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 
 .contentitem {
@@ -9,7 +10,13 @@
   border-radius: 5px;
   margin: 30px 50px;
   padding: 20px;
-  width: 40%;
+  width: 43%;
+  transition: 350ms ease-in-out;
+}
+
+.contentitem:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .contentitem:last-child {
