@@ -9,14 +9,22 @@
   background-color: #eff2f7;
   border-radius: 5px;
   margin: 30px 50px;
-  padding: 20px;
+  padding: 30px;
   width: 43%;
   transition: 350ms ease-in-out;
+  box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, 0.22);
 }
 
 .contentitem:hover {
   cursor: pointer;
   transform: scale(1.1);
+  background-color: #fff;
+}
+
+.contentitem:active {
+  transform: translateY(3px);
 }
 
 .contentitem:last-child {
@@ -35,7 +43,8 @@
 
 .contentitem img {
   display: block;
-  width: 300px;
+  width: 250px;
+  height: 180px;
   border-radius: 10px;
   margin-right: 23px;
 }

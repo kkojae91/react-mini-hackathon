@@ -17,9 +17,9 @@
 
 .headerdate__day {
   font-size: 25px;
+  margin-bottom: 3px;
 }
 
 .headerdate__time {
   font-size: 15px;
-  margin-left: 2px;
 }

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styles from '../styles/Header.module.css';
 import HeaderDate from './HeaderDate';
 
-function Header() {
+function Header({ title }) {
   const [date, setDate] = useState(new Date());
   useEffect(() => {
     const interval = setInterval(() => {
@@ -14,7 +14,9 @@ function Header() {
   return (
     <div className={styles.header}>
       <HeaderDate date={date} />
-      <div className={styles.header__title}>Today's Headline News</div>
+      <div className={styles.header__title}>
+        <h1>Today's Headline News</h1>
+      </div>
     </div>
   );
 }

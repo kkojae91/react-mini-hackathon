@@ -6,9 +6,9 @@ function DaumContent({ daumNewsList }) {
   return (
     <div className={styles.content}>
       {daumNewsList &&
-        daumNewsList.map((news) => {
+        daumNewsList.map((news, index) => {
           return (
-            <div className={styles.contentitem}>
+            <div key={index} className={styles.contentitem}>
               <img
                 src={news.img === 'No Image' ? '/static/noimage.png' : news.img}
                 alt="news-img"

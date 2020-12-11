@@ -6,9 +6,9 @@ function NaverContent({ naverNewsList }) {
   return (
     <div className={styles.content}>
       {naverNewsList &&
-        naverNewsList.map((news) => {
+        naverNewsList.map((news, index) => {
           return (
-            <div className={styles.contentitem}>
+            <div key={index} className={styles.contentitem}>
               <img
                 src={news.img === 'No Image' ? '/static/noimage.png' : news.img}
                 alt="news-img"

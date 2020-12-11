@@ -6,9 +6,9 @@ function AiTimesContent({ timesNewsList }) {
   return (
     <div className={styles.content}>
       {timesNewsList &&
-        timesNewsList.map((news) => {
+        timesNewsList.map((news, index) => {
           return (
-            <div className={styles.contentitem}>
+            <div key={index} className={styles.contentitem}>
               <img
                 src={news.img === 'No Image' ? '/static/noimage.png' : news.img}
                 alt="news-img"
