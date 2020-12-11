@@ -2,8 +2,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 30px;
-  border: ;
 }
 
 .navigator__box {
@@ -12,27 +10,52 @@
   align-items: center;
   width: 33.33%;
   cursor: pointer;
+  padding: 30px 0;
+  background-color: #eff2f7;
 }
-.navigator__box.active {
-  background-color: #666;
-}
-/* .navigator__box__color {
+
+.navigator__box__times {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 33.33%;
   cursor: pointer;
-  background-color: #666;
-} */
+  padding: 30px 0;
+  background-color: #fff;
+}
 
-/* .navigator__box__color img, */
+.navigator__box__naver {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.33%;
+  cursor: pointer;
+  padding: 30px 0;
+  background-color: #fff;
+}
+
+.navigator__box__daum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.33%;
+  cursor: pointer;
+  padding: 30px 0;
+  background-color: #fff;
+}
+
+.navigator__box__times img,
+.navigator__box__naver img,
+.navigator__box__daum img,
 .navigator__box img {
   width: 30px;
   height: 30px;
   margin-right: 10px;
 }
 
-/* .navigator__box__color span, */
+.navigator__box__times span,
+.navigator__box__naver span,
+.navigator__box__daum span,
 .navigator__box span {
   font-size: 25px;
   font-weight: 600;

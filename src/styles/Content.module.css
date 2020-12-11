@@ -1,5 +1,12 @@
 .content {
   display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* margin-bottom: 30px; */
+}
+
+.content__items {
+  display: flex;
   flex-wrap: wrap;
   margin-bottom: 30px;
 }

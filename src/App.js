@@ -110,7 +110,7 @@ function App() {
   return (
     <div className="section">
       <Header />
-      <Navigator />
+      {/* <Navigator /> */}
       <Route
         path="/"
         exact={true}

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styles from '../styles/Header.module.css';
 import HeaderDate from './HeaderDate';
 
-function Header({ title }) {
+function Header() {
   const [date, setDate] = useState(new Date());
   useEffect(() => {
     const interval = setInterval(() => {
